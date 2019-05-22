@@ -70,6 +70,7 @@ nav ul li:first-child a{
 }
 p{
     color:#777777;
+    text-align: justify;
 }
 footer{
     background-color: #666666;
@@ -144,7 +145,7 @@ nav ul li a:hover{
 nav ul li.active a{
     color:#3d66c1; 
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
     header{
         text-align: center;
     }
@@ -156,3 +157,10 @@ nav ul li.active a{
         float: inherit;
     }
   }
+  @media only screen and (max-width: 450px) {
+    .profile-pic{
+        float: initial;
+        display: block;
+        padding-top: 10px;
+       }
+}
